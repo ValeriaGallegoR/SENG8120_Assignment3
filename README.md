@@ -1,18 +1,30 @@
 # SENG8120 Modern Automated Testing 
-
-Version: Alpaca
+## Assignment 3
 
 ## Purpose
 
-This repository houses the code we require for examples and assignments.
+This repository has the purpose of creating Test coverage for:
 
-## Repository Usage
+- calculateCanvasDiagonal
+  
+- calculateCanvasPerimeter
+  
+- calculateCanvasSize
+  
+- calculatePaintCost
+  
+- calculateTotalCost
+  
+- convertAreaToSquareFeet
+  
+- estimatePaintingTime
+  
+- paintRequiredCalculator
+  
+- paintRequiredForMultipleCoats
+  
 
-This repository will contain branches of code.
-
-Please refer to your instructor's directions on how to use this repository.
-
-## Branch Usage
+### Branch Usage
 
 **Installing The Dependencies**
 
@@ -58,4 +70,3 @@ To run a specific test, you can use
 ```bash
 npm run test [my test name]
 ```
-
