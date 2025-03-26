@@ -7,7 +7,7 @@ describe('calculateCanvasDiagonal', () => {
     expect(calculateCanvasDiagonal('5', '12')).toBeCloseTo(13);
   });
 
-  test('should return 0 for length and width of 0', () => {
+  test('should returns correct result when width and length are zero', () => {
     expect(calculateCanvasDiagonal('0', '0')).toBe(0);
   });
 
