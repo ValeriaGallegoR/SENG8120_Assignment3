@@ -1,6 +1,13 @@
 export default function calculateCanvasSize(
-  length: number,
-  width: number
+  length: number | string ,
+  width: number | string
 ) {
-  return Math.sqrt(width * width + length * length);
+  const l = parseFloat(length as string);
+  const w = parseFloat(width as string);
+
+  if (isNaN(l) || isNaN(w)) {
+    return NaN;
+  }
+
+  return Math.sqrt(l * l + w * w);
 }
