@@ -7,7 +7,7 @@ describe('convertAreaToSquareFeet', () => {
     expect(convertAreaToSquareFeet(150)).toBeCloseTo(1614.585);
   });
 
-  test('should return 0 for area of 0', () => {
+  test('should return correct value of zero for area of zero', () => {
     expect(convertAreaToSquareFeet(0)).toBe(0);
   });
 
