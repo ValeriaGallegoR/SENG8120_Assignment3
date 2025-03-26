@@ -1,6 +1,6 @@
-export default function calculateCanvasSize(
-  length: string,
-  width: string
+export default function calculateCanvasPerimeter(
+  length: number,
+  width: number
 ) {
-  return 2 * (parseInt(length) + parseInt(width));
+  return 2 * (length + width);
 }
