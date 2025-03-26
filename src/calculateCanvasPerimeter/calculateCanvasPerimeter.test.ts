@@ -12,10 +12,10 @@ describe("calculateCanvasPerimeter", () => {
     });
 
   test("should throw an error message when the width is negative and greater than length.", () => {
-      expect(() => calculateCanvasPerimeter(10, -50)).toThrow("Width should be positive or less than length.");
+      expect(() => calculateCanvasPerimeter(10, -50)).toThrow("Invalid input: length and width must be non-negative.");
     });
 
   test("should throw an error message when the length is negative and greater than width.", () => {
-    expect(() => calculateCanvasPerimeter(-50, 10)).toThrow("Length should be positive or less than width.");
+    expect(() => calculateCanvasPerimeter(-50, 10)).toThrow("Invalid input: length and width must be non-negative.");
   });
 });
